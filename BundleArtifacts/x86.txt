@@ -1,0 +1,2 @@
+MainPackage=D:\文档\Visual Studio 2017\Projects\Album\Album\bin\x86\Debug\Album_1.0.0.0_x86_Debug.appx
+SymbolPackage=D:\文档\Visual Studio 2017\Projects\Album\Album\AppPackages\Album_1.0.0.0_Debug_Test\Album_1.0.0.0_x86_Debug.appxsym

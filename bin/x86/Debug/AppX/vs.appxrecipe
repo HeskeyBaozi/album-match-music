@@ -31,13 +31,13 @@
     <AppXManifest Include="D:\文档\Visual Studio 2017\Projects\Album\Album\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-13T08:49:53.204</Modified>
+      <Modified>2017-05-13T16:48:11.943</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\文档\Visual Studio 2017\Projects\Album\Album\bin\x86\Debug\Album.exe">
       <PackagePath>entrypoint\Album.exe</PackagePath>
-      <Modified>2017-05-13T08:49:52.913</Modified>
+      <Modified>2017-05-13T16:48:11.554</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Administrator\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -543,7 +543,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\文档\Visual Studio 2017\Projects\Album\Album\bin\x86\Debug\Album.xr.xml">
       <PackagePath>Album.xr.xml</PackagePath>
-      <Modified>2017-05-08T16:12:43.072</Modified>
+      <Modified>2017-05-13T16:46:39.857</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -552,11 +552,11 @@
     <AppxPackagedFile Include="D:\文档\Visual Studio 2017\Projects\Album\Album\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-12T16:32:45.562</Modified>
+      <Modified>2017-05-13T16:46:40.437</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\文档\Visual Studio 2017\Projects\Album\Album\bin\x86\Debug\Core\Album.exe">
       <PackagePath>Album.exe</PackagePath>
-      <Modified>2017-05-13T08:49:53.199</Modified>
+      <Modified>2017-05-13T16:48:11.934</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

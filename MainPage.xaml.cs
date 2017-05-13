@@ -70,6 +70,7 @@ namespace Album {
             TitleTextBlock.Text = "";
             ArtistTextBlock.Text = "";
             AlbumTextBlock.Text = "";
+            ResultImage.Source = null;
             _totalScore = 0;
             _round = 0;
 
@@ -205,9 +206,10 @@ namespace Album {
         }
 
         private void DisplayCorrectSong(Song correctSong) {
-            TitleTextBlock.Text = String.Format("Correct Song: {0}", correctSong.Title);
-            ArtistTextBlock.Text = String.Format("Performed by: {0}", correctSong.Artist);
-            AlbumTextBlock.Text = String.Format("On Album: {0}", correctSong.Album);
+            TitleTextBlock.Text = String.Format("{0}", correctSong.Title);
+            ArtistTextBlock.Text = String.Format("{0}", correctSong.Artist);
+            AlbumTextBlock.Text = String.Format("{0}", correctSong.Album);
+            ResultImage.Source = correctSong.AlbumCover;
         }
 
         private async void PlayAgainButton_Click(object sender, RoutedEventArgs e) {
@@ -225,7 +227,7 @@ namespace Album {
 
         private void StartCountdown() {
             _playingMusic = true;
-            InstructionTextBlock.Text = "Go! It's time for listening.";
+            InstructionTextBlock.Text = "Playing Music...♪";
             CountDown.Begin();
         }
 
